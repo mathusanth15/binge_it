@@ -1,0 +1,27 @@
+{
+    "name": "OttLeyon-Bot",
+    "description": "Telegram bot for executing shell commands",
+    "keywords": [
+      "telegram",
+      "bot",
+      "shell"
+    ],
+    "repository": "https://github.com/mathusanth15/binge_it",
+    "website": "https://github.com/mathusanth15/binge_it",
+    "success_url": "https://github.com/mathusanth15/binge_it/blob/master/README.md",
+    "stack": "container",
+    "env": {
+      "BOT_TOKEN": {
+        "description": "Get your bot token by talking to @Botfather",
+        "value": "5771222457:AAFgTado3NS14jmlBY8jg4iIvDkdJVhwWdI"
+      },
+      "OWNER_ID": {
+        "description": "Your telegram ID (not username)",
+        "value": "1496802577"
+      },
+      "LANG": {
+        "description": "Setting the encoding to UTF-8 Dont touch this",
+        "value": "C.UTF-8"
+      }
+    }
+}
